@@ -17,6 +17,18 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     font-weight: 400;
+    color: #fff;
+    background: hsl(257, 40%, 49%) url('/images/bg-mobile.svg') no-repeat 0 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .icon {
@@ -27,3 +39,48 @@ body {
     stroke: currentColor;
     fill: currentColor;
 }
+
+.container {
+    position: relative;
+    width: 80%;
+    margin: 2.5em auto;
+}
+
+.brand img {
+    height: 2em;
+}
+
+.featured-image {
+    margin: 3em 0 4.5em;
+    height: 200px;
+    background-image: url('/images/illustration-mockups.svg');
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+}
+
+h1.landing-page {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.lead {
+    text-align: center;
+    line-height: 1.5;
+    margin: 1em 0 1.4em;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.btn {
+    font-size: .8em;
+    color: hsl(257, 40%, 49%);
+    padding: 1em 6em;
+    border: 1px solid #fff;
+    border-radius: 50px;
+
+}
+

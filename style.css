@@ -111,3 +111,7 @@ ul.social-menu li a {
     color: #fff;
     vertical-align: middle;
 }
+
+@media screen and (min-width: 1024px) {
+    
+}

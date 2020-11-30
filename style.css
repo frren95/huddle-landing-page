@@ -51,7 +51,7 @@ h6 {
 }
 
 .featured-image {
-    margin: 3em 0 4.5em;
+    margin: 3.5em 0 4.5em;
     height: 200px;
     background-image: url('/images/illustration-mockups.svg');
     background-size: cover;
@@ -84,3 +84,28 @@ h1.landing-page {
 
 }
 
+ul.social-menu {
+    list-style: none;
+    margin: 3.5em 0 1.5em;
+    padding: 0;
+    text-align: center;
+}
+
+ul.social-menu li {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2;
+}
+
+ul.social-menu li:not(:last-of-type) {
+    margin-right: .5em;
+}
+
+ul.social-menu li a {
+    color: #fff;
+    vertical-align: middle;
+}
